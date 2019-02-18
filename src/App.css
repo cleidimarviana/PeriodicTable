@@ -10,7 +10,7 @@
    padding-left: 2px; 
 }
 .col:hover {
-   border-spacing: 3px;
+   border: #333 solid 1px;
    cursor: pointer;
 }
 .col2 {

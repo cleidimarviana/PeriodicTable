@@ -8,7 +8,7 @@ class MyBytton extends Component{
   render(){
     return <Button>Button teste</Button>
   }
-  
+
 }
 
 class MyCol extends Component{
@@ -20,7 +20,7 @@ class MyCol extends Component{
       <span className="elemento"> {this.props.elemento}</span>     
       </Col>;
     else 
-      return <Col className="col2 btn"></Col>;
+      return <Col className="col2"></Col>;
   }
 }
 
