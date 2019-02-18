@@ -1,0 +1,29 @@
+.row{
+   
+}
+.col {
+   border: #f3f3f3 solid 1px;
+   cursor: pointer;
+   height: 50px!important;
+   width: 50px!important;
+   padding-right: 2px;; 
+   padding-left: 2px; 
+}
+.col:hover {
+   border-spacing: 3px;
+   cursor: pointer;
+}
+.col2 {
+   border: transparent;
+   background: transparent;
+}
+
+.content{
+   margin-top: 16px;
+}
+span.sigla{
+   font-size: 12px;
+}
+span.elemento{
+   font-size: 9px;
+}
