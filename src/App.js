@@ -26,68 +26,108 @@ class Categories extends Component {
 
 class MyTable extends Component {
 
+  getElement(num){
+    var result = data.elements.find(obj => {
+      return obj.atomicnumber === num
+    })
+
+    return result;
+  }
+ 
   render() {
-    var all = [];
-    var elements = [];
 
-    var size = data.elements.length;
-    for (var i = 0; i < size; i++) {
+    return <div><Row>
+    <MyCol element={this.getElement(1)}/>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol element={this.getElement(2)}></MyCol>
+  </Row>
+  <Row>
+    <MyCol element={this.getElement(3)} />
+    <MyCol element={this.getElement(4)}></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol element="B" />
+    <MyCol element="C" />
+    <MyCol element="N" />
+    <MyCol element="O" />
+    <MyCol element="F" />
+    <MyCol element="Ne" />
+  </Row>
 
-      var pos = data.elements[i].position;
-      var ix = pos.split(",");
+  <Row>
+    <MyCol element="Na" />
+    <MyCol element="Mg"></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol></MyCol>
+    <MyCol element="Al" />
+    <MyCol element="Si" />
+    <MyCol element="P" />
+    <MyCol element="S" />
+    <MyCol element="Cl" />
+    <MyCol element="Ar" />
+  </Row>
 
-      // for(var j = 1; j <=18; j++){
-      //   if(parseInt(ix[1])===j){
-      //       elements.push(<Col> {data.elements[i].symbol}</Col>);
-      //   } 
-      // }
+  <Row>
+    <MyCol element="K" />
+    <MyCol element="Ca" />
+    <MyCol element="Sc" />
+    <MyCol element="Ti" />
+    <MyCol element="V" />
+    <MyCol element="Cr" />
+    <MyCol element="Mn" />
+    <MyCol element="Fe" />
+    <MyCol element="Co" />
+    <MyCol element="Ni" />
+    <MyCol element="Cu" />
+    <MyCol element="Zn" />
+    <MyCol element="Ga" />
+    <MyCol element="Ge" />
+    <MyCol element="As" />
+    <MyCol element="Se" />
+    <MyCol element="Br" />
+    <MyCol element="Kr" />
+  </Row></div>;
 
-    }
-
-
-
-    // for (var a = 0; a <= 6; a++) {
-    //   var itens = [];
-    //   for (var b = 0; b <= 17; b++) {
-
-
-
-    //     var position = data.elements[b].position;
-    //     var pos = position.split(",");
-
-    //     console.log(pos);
-
-    //     var line = a + 1;
-    //     var col = b + 1;
-
-    //     console.log("LOCA-> line: " + line + " col: " + col +
-    //       "\nJSON->line: " + pos[0] + " col: " + pos[1]);
-
-    //     if (parseInt(pos[0]) == line && parseInt(pos[1]) == col) {
-    //       itens.push(<Col> {data.elements[b].symbol}</Col>);
-    //     } else {
-    //       itens.push(<Col className="col2"></Col>);
-    //     }
-    //   }
-    //   elements[a] = itens;
-    // }
-
-
-    all.push(<Row>
-      {
-        elements
-      }
-    </Row>);
-    return all;
   }
 }
 
 class MyCol extends Component {
   render() {
 
-    if (this.props.sigla)
-      return <Col onClick={() => console.log(this.props.sigla)}>
-        <span>{this.props.sigla}</span>
+    if (this.props.element)
+      return <Col onClick={() => console.log(this.props.element)}>
+        <span>{this.props.element.symbol}</span>
       </Col>;
     else
       return <Col className="col2"></Col>;
@@ -99,10 +139,6 @@ class App extends Component {
   constructor(props, context) {
     super(props, context);
 
-  }
-
-  clicaMemo = () => {
-    alert();
   }
 
   render() {
@@ -128,89 +164,7 @@ class App extends Component {
           <Container className="content" >
 
             <MyTable></MyTable>
-            <Row>
-              <MyCol sigla="H" />
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol sigla="HE"></MyCol>
-            </Row>
-            <Row>
-              <MyCol sigla="Li" />
-              <MyCol sigla="Be"></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol sigla="B" />
-              <MyCol sigla="C" />
-              <MyCol sigla="N" />
-              <MyCol sigla="O" />
-              <MyCol sigla="F" />
-              <MyCol sigla="Ne" />
-            </Row>
-
-            <Row>
-              <MyCol sigla="Na" />
-              <MyCol sigla="Mg"></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol></MyCol>
-              <MyCol sigla="Al" />
-              <MyCol sigla="Si" />
-              <MyCol sigla="P" />
-              <MyCol sigla="S" />
-              <MyCol sigla="Cl" />
-              <MyCol sigla="Ar" />
-            </Row>
-
-            <Row>
-              <MyCol sigla="K" />
-              <MyCol sigla="Ca" />
-              <MyCol sigla="Sc" />
-              <MyCol sigla="Ti" />
-              <MyCol sigla="V" />
-              <MyCol sigla="Cr" />
-              <MyCol sigla="Mn" />
-              <MyCol sigla="Fe" />
-              <MyCol sigla="Co" />
-              <MyCol sigla="Ni" />
-              <MyCol sigla="Cu" />
-              <MyCol sigla="Zn" />
-              <MyCol sigla="Ga" />
-              <MyCol sigla="Ge" />
-              <MyCol sigla="As" />
-              <MyCol sigla="Se" />
-              <MyCol sigla="Br" />
-              <MyCol sigla="Kr" />
-            </Row>
-
+            
 
             <Row className="categories">
               <Categories>
