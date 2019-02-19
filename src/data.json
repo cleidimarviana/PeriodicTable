@@ -1,0 +1,73 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "description": "Gases Nobres",
+            "colorhexa": "#2793E0"
+        },
+        {
+            "id": 2,
+            "description": "Não Metais",
+            "colorhexa": "#96CD30"
+            
+        },
+        {
+            "id": 3,
+            "description": "Metais alcalinos",
+            "colorhexa": "#F1B200"
+        },
+        {
+            "id": 4,
+            "description": "Metais alcalinos terrosos",
+            "colorhexa": "#EADA00"
+        },
+        {
+            "id": 5,
+            "description": "Semimetais",
+            "colorhexa": "#4DB6AC"
+        },
+        {
+            "id": 6,
+            "description": "Halogênios",
+            "colorhexa": "#70CBEB"
+        },
+        {
+            "id": 7,
+            "description": "Outros metais",
+            "colorhexa": "#A2C7D3"
+        },
+        {
+            "id": 8,
+            "description": "Metais de transição",
+            "colorhexa": "#EB8E8E"
+        },
+        {
+            "id": 9,
+            "description": "Lantanídeos",
+            "colorhexa": "#90E3E9"
+        },
+        {
+            "id": 10,
+            "description": "Actinídeios",
+            "colorhexa": "#DCADD6"
+        }
+    ],
+    "elements":[
+        {
+            "natomic": 1,
+            "symbol": "H",
+            "description": "Hidrogênio",
+            "mass" : "1,008",
+            "position" : "1,1",
+            "category" : 2
+        },
+        {
+            "natomic": 2,
+            "symbol": "He",
+            "description": "Hélio",
+            "mass" : "4,0026",
+            "position" : "1,18",
+            "category" : 1
+        }
+    ]
+}

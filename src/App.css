@@ -2,12 +2,20 @@
    
 }
 .col {
-   border: #f3f3f3 solid 1px;
+   border: #ccc solid 1px;
    cursor: pointer;
-   height: 50px!important;
-   width: 50px!important;
-   padding-right: 2px;; 
-   padding-left: 2px; 
+   margin: 2px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 3px;
+}
+.col span {
+   line-height: 1.5;
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: 13px;
+   font-weight: 600;
 }
 .col:hover {
    border: #333 solid 1px;
@@ -27,3 +35,19 @@ span.sigla{
 span.elemento{
    font-size: 9px;
 }
+
+.categories{
+  text-align: center;
+  margin-top: 20px;
+}
+.categories .col{
+   font-size: 12px;
+   padding: 2px;
+   margin: 2px;
+   height: 40px!important;
+}
+.categories .col:hover {
+   border: #333 solid 1px;
+   cursor: pointer;
+}
+
