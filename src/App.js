@@ -4,14 +4,6 @@ import './App.css';
 import { Button, Container, Row, Navbar, NavDropdown, FormControl, Form, Nav, Col } from 'react-bootstrap';
 import elements from './data.json';
 
-
-class MyBytton extends Component {
-  render() {
-    return <Button>Button teste</Button>
-  }
-
-}
-
 var categories = elements.categories;
 console.log(categories);
 
@@ -32,8 +24,37 @@ class Categories extends Component {
   }
 }
 
+class MyTable extends Component{
+  render(){
+    var elements = [];
+
+    var itens = [];
+
+    for(var j=1; j<=18;j++){
+
+      itens.push(<Col></Col>)
+    }
+
+    for(var i=1; i<=7;i++){
+      elements.push(<Row>
+        { 
+          itens
+        }
+      </Row>);
+    }
+
+    return elements;
+
+    
+  }
+}
+
 class MyCol extends Component {
   render() {
+
+    for(var i=1; i<=18;i++){
+
+    }
 
     if (this.props.sigla)
       return <Col onClick={() => console.log(this.props.sigla)}>
@@ -72,6 +93,8 @@ class App extends Component {
           </Navbar>
 
           <Container className="content" >
+
+          <MyTable></MyTable>
             <Row>
               <MyCol sigla="H"/>
               <MyCol></MyCol>
