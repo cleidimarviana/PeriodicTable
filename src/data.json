@@ -9,7 +9,6 @@
             "id": 2,
             "description": "Não Metais",
             "colorhexa": "#96CD30"
-            
         },
         {
             "id": 3,
@@ -52,22 +51,950 @@
             "colorhexa": "#DCADD6"
         }
     ],
-    "elements":[
+    "elements": [
         {
-            "natomic": 1,
+            "atomicnumber": 1,
             "symbol": "H",
-            "description": "Hidrogênio",
-            "mass" : "1,008",
-            "position" : "1,1",
-            "category" : 2
+            "name": "Hidrogênio",
+            "atomicmass": "1.008",
+            "ec": "1s<sup>1</sup>",
+            "position": "1,1"
         },
         {
-            "natomic": 2,
+            "atomicnumber": 2,
             "symbol": "He",
-            "description": "Hélio",
-            "mass" : "4,0026",
-            "position" : "1,18",
-            "category" : 1
+            "name": "Hélio",
+            "atomicmass": "4.003",
+            "ec": "1s<sup>2</sup>",
+            "position": "1,18"
+        },
+        {
+            "atomicnumber": 3,
+            "symbol": "Li",
+            "name": "Lítio",
+            "atomicmass": "6.941",
+            "ec": "1s<sup>2</sup> 2s<sup>1</sup>",
+            "position": "2,1"
+        },
+        {
+            "atomicnumber": 4,
+            "symbol": "Be",
+            "name": "Berílio",
+            "atomicmass": "9.012",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup>",
+            "position": "2,2"
+        },
+        {
+            "atomicnumber": 5,
+            "symbol": "B",
+            "name": "Boro",
+            "atomicmass": "10.811",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p¹",
+            "position": "2,13"
+        },
+        {
+            "atomicnumber": 6,
+            "symbol": "C",
+            "name": "Carbono",
+            "atomicmass": "12.011",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p²",
+            "position": "2,14"
+        },
+        {
+            "atomicnumber": 7,
+            "symbol": "N",
+            "name": "Nitrogênio",
+            "atomicmass": "14.007",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>",
+            "position": "2,15"
+        },
+        {
+            "atomicnumber": 8,
+            "symbol": "O",
+            "name": "Oxigênio",
+            "atomicmass": "15.999",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>",
+            "position": "2,16"
+        },
+        {
+            "atomicnumber": 9,
+            "symbol": "F",
+            "name": "Flúor",
+            "atomicmass": "18.998",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup>",
+            "position": "2,17"
+        },
+        {
+            "atomicnumber": 10,
+            "symbol": "Ne",
+            "name": "Neônio",
+            "atomicmass": "20.18",
+            "ec": "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>",
+            "position": "2,18"
+        },
+        {
+            "atomicnumber": 11,
+            "symbol": "Na",
+            "name": "Sódio",
+            "atomicmass": "22.99",
+            "ec": "[Ne] 3s<sup>1</sup>",
+            "position": "3,1"
+        },
+        {
+            "atomicnumber": 12,
+            "symbol": "Mg",
+            "name": "Magnésio",
+            "atomicmass": "24.305",
+            "ec": "[Ne] 3s<sup>2</sup>",
+            "position": "3,2"
+        },
+        {
+            "atomicnumber": 13,
+            "symbol": "Al",
+            "name": "Alumínio",
+            "atomicmass": "26.982",
+            "ec": "[Ne] 3s<sup>2</sup> 3p¹",
+            "position": "3,13"
+        },
+        {
+            "atomicnumber": 14,
+            "symbol": "Si",
+            "name": "Silício",
+            "atomicmass": "28.086",
+            "ec": "[Ne] 3s<sup>2</sup> 3p²",
+            "position": "3,14"
+        },
+        {
+            "atomicnumber": 15,
+            "symbol": "P",
+            "name": "Fósforo",
+            "atomicmass": "30.974",
+            "ec": "[Ne] 3s<sup>2</sup> 3p<sup>3</sup>",
+            "position": "3,15"
+        },
+        {
+            "atomicnumber": 16,
+            "symbol": "S",
+            "name": "Enxofre",
+            "atomicmass": "32.065",
+            "ec": "[Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
+            "position": "3,16"
+        },
+        {
+            "atomicnumber": 17,
+            "symbol": "Cl",
+            "name": "Cloro",
+            "atomicmass": "35.453",
+            "ec": "[Ne] 3s<sup>2</sup> 3p<sup>5</sup>",
+            "position": "3,17"
+        },
+        {
+            "atomicnumber": 18,
+            "symbol": "Ar",
+            "name": "Argônio",
+            "atomicmass": "39.948",
+            "ec": "[Ne] 3s<sup>2</sup> 3p<sup>6</sup>",
+            "position": "3,18"
+        },
+        {
+            "atomicnumber": 19,
+            "symbol": "K",
+            "name": "Potássio",
+            "atomicmass": "39.098",
+            "ec": "[Ar] 4s<sup>1</sup>",
+            "position": "4,1"
+        },
+        {
+            "atomicnumber": 20,
+            "symbol": "Ca",
+            "name": "Cálcio",
+            "atomicmass": "40.078",
+            "ec": "[Ar] 4s<sup>2</sup>",
+            "position": "4,2"
+        },
+        {
+            "atomicnumber": 21,
+            "symbol": "Sc",
+            "name": "Escândio",
+            "atomicmass": "44.956",
+            "ec": "[Ar] 3d¹ 4s<sup>2</sup>",
+            "position": "4,3"
+        },
+        {
+            "atomicnumber": 22,
+            "symbol": "Ti",
+            "name": "Titânio",
+            "atomicmass": "47.867",
+            "ec": "[Ar] 3d² 4s<sup>2</sup>",
+            "position": "4,4"
+        },
+        {
+            "atomicnumber": 23,
+            "symbol": "V",
+            "name": "Vanádio",
+            "atomicmass": "50.942",
+            "ec": "[Ar] 3d<sup>3</sup> 4s<sup>2</sup>",
+            "position": "4,5"
+        },
+        {
+            "atomicnumber": 24,
+            "symbol": "Cr",
+            "name": "Cromo",
+            "atomicmass": "51.996",
+            "ec": "[Ar] 3d<sup>4</sup> 4s<sup>2</sup>",
+            "position": "4,6"
+        },
+        {
+            "atomicnumber": 25,
+            "symbol": "Mn",
+            "name": "Manganês",
+            "atomicmass": "54.938",
+            "ec": "[Ar] 3d<sup>5</sup> 4s<sup>2</sup>",
+            "position": "4,7"
+        },
+        {
+            "atomicnumber": 26,
+            "symbol": "Fe",
+            "name": "Ferro",
+            "atomicmass": "55.845",
+            "ec": "[Ar] 3d<sup>6</sup> 4s<sup>2</sup>",
+            "position": "4,8"
+        },
+        {
+            "atomicnumber": 27,
+            "symbol": "Co",
+            "name": "Cobalto",
+            "atomicmass": "58.933",
+            "ec": "[Ar] 3d<sup>7</sup> 4s<sup>2</sup>",
+            "position": "4,9"
+        },
+        {
+            "atomicnumber": 28,
+            "symbol": "Ni",
+            "name": "Níquel",
+            "atomicmass": "58.693",
+            "ec": "[Ar] 3d<sup>8</sup> 4s<sup>2</sup>",
+            "position": "4,10"
+        },
+        {
+            "atomicnumber": 29,
+            "symbol": "Cu",
+            "name": "Cobre",
+            "atomicmass": "63.546",
+            "ec": "[Ar] 3d<sup>9</sup> 4s<sup>2</sup>",
+            "position": "4,11"
+        },
+        {
+            "atomicnumber": 30,
+            "symbol": "Zn",
+            "name": "Zinco",
+            "atomicmass": "65.409",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup>",
+            "position": "4,12"
+        },
+        {
+            "atomicnumber": 31,
+            "symbol": "Ga",
+            "name": "Gálio",
+            "atomicmass": "69.723",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p¹",
+            "position": "4,13"
+        },
+        {
+            "atomicnumber": 32,
+            "symbol": "Ge",
+            "name": "Germânio",
+            "atomicmass": "72.64",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p²",
+            "position": "4,14"
+        },
+        {
+            "atomicnumber": 33,
+            "symbol": "As",
+            "name": "Arsênio",
+            "atomicmass": "74.922",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup>",
+            "position": "4,15"
+        },
+        {
+            "atomicnumber": 34,
+            "symbol": "Se",
+            "name": "Selênio",
+            "atomicmass": "78.96",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup>",
+            "position": "4,16"
+        },
+        {
+            "atomicnumber": 35,
+            "symbol": "Br",
+            "name": "Bromo",
+            "atomicmass": "79.904",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>",
+            "position": "4,17"
+        },
+        {
+            "atomicnumber": 36,
+            "symbol": "Kr",
+            "name": "Criptônio",
+            "atomicmass": "83.798",
+            "ec": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup>",
+            "position": "4,18"
+        },
+        {
+            "atomicnumber": 37,
+            "symbol": "Rb",
+            "name": "Rubídio",
+            "atomicmass": "85.468",
+            "ec": "[Kr] 5s<sup>1</sup>",
+            "position": "5,1"
+        },
+        {
+            "atomicnumber": 38,
+            "symbol": "Sr",
+            "name": "Estrôncio",
+            "atomicmass": "87.62",
+            "ec": "[Kr] 5s<sup>2</sup>",
+            "position": "5,2"
+        },
+        {
+            "atomicnumber": 39,
+            "symbol": "Y",
+            "name": "Ítrio",
+            "atomicmass": "88.906",
+            "ec": "[Kr] 4d¹ 5s<sup>2</sup>",
+            "position": "5,3"
+        },
+        {
+            "atomicnumber": 40,
+            "symbol": "Zr",
+            "name": "Zircônio",
+            "atomicmass": "91.224",
+            "ec": "[Kr] 4d² 5s<sup>2</sup>",
+            "position": "5,4"
+        },
+        {
+            "atomicnumber": 41,
+            "symbol": "Nb",
+            "name": "Nióbio",
+            "atomicmass": "92.906 38",
+            "ec": "[Kr] 4d<sup>3</sup> 5s<sup>2</sup>",
+            "position": "5,5"
+        },
+        {
+            "atomicnumber": 42,
+            "symbol": "Mo",
+            "name": "Molibdênio",
+            "atomicmass": "95.94",
+            "ec": "[Kr] 4d<sup>4</sup> 5s<sup>2</sup>",
+            "position": "5,6"
+        },
+        {
+            "atomicnumber": 43,
+            "symbol": "Tc",
+            "name": "Tecnécio",
+            "atomicmass": "[98]",
+            "ec": "[Kr] 4d<sup>5</sup> 5s<sup>2</sup>",
+            "position": "5,7"
+        },
+        {
+            "atomicnumber": 44,
+            "symbol": "Ru",
+            "name": "Rutênio",
+            "atomicmass": "101.07",
+            "ec": "[Kr] 4d<sup>6</sup> 5s<sup>2</sup>",
+            "position": "5,8"
+        },
+        {
+            "atomicnumber": 45,
+            "symbol": "Rh",
+            "name": "Ródio",
+            "atomicmass": "102.905 50",
+            "ec": "[Kr] 4d<sup>7</sup> 5s<sup>2</sup>",
+            "position": "5,9"
+        },
+        {
+            "atomicnumber": 46,
+            "symbol": "Pd",
+            "name": "Paládio",
+            "atomicmass": "106.42",
+            "ec": "[Kr] 4d<sup>8</sup> 5s<sup>2</sup>",
+            "position": "5,10"
+        },
+        {
+            "atomicnumber": 47,
+            "symbol": "Ag",
+            "name": "Prata",
+            "atomicmass": "107.868",
+            "ec": "[Kr] 4d<sup>9</sup> 5s<sup>2</sup>",
+            "position": "5,11"
+        },
+        {
+            "atomicnumber": 48,
+            "symbol": "Cd",
+            "name": "Cádmio",
+            "atomicmass": "112.411",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup>",
+            "position": "5,12"
+        },
+        {
+            "atomicnumber": 49,
+            "symbol": "In",
+            "name": "Índio",
+            "atomicmass": "114.818",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p¹",
+            "position": "5,13"
+        },
+        {
+            "atomicnumber": 50,
+            "symbol": "Sn",
+            "name": "Estanho",
+            "atomicmass": "118.71",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p²",
+            "position": "5,14"
+        },
+        {
+            "atomicnumber": 51,
+            "symbol": "Sb",
+            "name": "Antimônio",
+            "atomicmass": "121.76",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup>",
+            "position": "5,15"
+        },
+        {
+            "atomicnumber": 52,
+            "symbol": "Te",
+            "name": "Telúrio",
+            "atomicmass": "128.6",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup>",
+            "position": "5,16"
+        },
+        {
+            "atomicnumber": 53,
+            "symbol": "I",
+            "name": "Iodo",
+            "atomicmass": "126.904 47",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>5</sup>",
+            "position": "5,17"
+        },
+        {
+            "atomicnumber": 54,
+            "symbol": "Xe",
+            "name": "Xenônio",
+            "atomicmass": "131.293",
+            "ec": "[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup>",
+            "position": "5,18"
+        },
+        {
+            "atomicnumber": 55,
+            "symbol": "Cs",
+            "name": "Césio",
+            "atomicmass": "132.905",
+            "ec": "[Xe] 6s<sup>1</sup>",
+            "position": "6,1"
+        },
+        {
+            "atomicnumber": 56,
+            "symbol": "Ba",
+            "name": "Bário",
+            "atomicmass": "137.327",
+            "ec": "[Xe] 6s<sup>2</sup>",
+            "position": "5,2"
+        },
+        {
+            "atomicnumber": 57,
+            "symbol": "La",
+            "name": "Lantânio",
+            "atomicmass": "138.905",
+            "ec": "[Xe] 4f¹ 6s<sup>2</sup>",
+            "position": "6,3"
+        },
+        {
+            "atomicnumber": 58,
+            "symbol": "Ce",
+            "name": "Cério",
+            "atomicmass": "140.116",
+            "ec": "[Xe] 4f² 6s<sup>2</sup>",
+            "position": "6,4"
+        },
+        {
+            "atomicnumber": 59,
+            "symbol": "Pr",
+            "name": "Praseodímio",
+            "atomicmass": "140.908",
+            "ec": "[Xe] 4f<sup>3</sup> 6s<sup>2</sup>",
+            "position": "6,5"
+        },
+        {
+            "atomicnumber": 60,
+            "symbol": "Nd",
+            "name": "Neodímio",
+            "atomicmass": "144.242",
+            "ec": "[Xe] 4f<sup>4</sup> 6s<sup>2</sup>",
+            "position": "6,6"
+        },
+        {
+            "atomicnumber": 61,
+            "symbol": "Pm",
+            "name": "Promécio",
+            "atomicmass": "[145]",
+            "ec": "[Xe] 4f<sup>5</sup> 6s<sup>2</sup>",
+            "position": "6,7"
+        },
+        {
+            "atomicnumber": 62,
+            "symbol": "Sm",
+            "name": "Samário",
+            "atomicmass": "150.36",
+            "ec": "[Xe] 4f<sup>6</sup> 6s<sup>2</sup>",
+            "position": "6,8"
+        },
+        {
+            "atomicnumber": 63,
+            "symbol": "Eu",
+            "name": "Európio",
+            "atomicmass": "151.964",
+            "ec": "[Xe] 4f<sup>7</sup> 6s<sup>2</sup>",
+            "position": "6,9"
+        },
+        {
+            "atomicnumber": 64,
+            "symbol": "Gd",
+            "name": "Gadolínio",
+            "atomicmass": "157.25",
+            "ec": "[Xe] 4f<sup>8</sup> 6s<sup>2</sup>",
+            "position": "6,10"
+        },
+        {
+            "atomicnumber": 65,
+            "symbol": "Tb",
+            "name": "Térbio",
+            "atomicmass": "158.925",
+            "ec": "[Xe] 4f<sup>9</sup> 6s<sup>2</sup>",
+            "position": "6,11"
+        },
+        {
+            "atomicnumber": 66,
+            "symbol": "Dy",
+            "name": "Disprósio",
+            "atomicmass": "162.5",
+            "ec": "[Xe] 4f<sup>10</sup> 6s<sup>2</sup>",
+            "position": "6,12"
+        },
+        {
+            "atomicnumber": 67,
+            "symbol": "Ho",
+            "name": "Hólmio",
+            "atomicmass": "164.930 32",
+            "ec": "[Xe] 4f<sup>11</sup> 6s<sup>2</sup>",
+            "position": "6,13"
+        },
+        {
+            "atomicnumber": 68,
+            "symbol": "Er",
+            "name": "Érbio",
+            "atomicmass": "167.259",
+            "ec": "[Xe] 4f<sup>12</sup> 6s<sup>2</sup>",
+            "position": "6,14"
+        },
+        {
+            "atomicnumber": 69,
+            "symbol": "Tm",
+            "name": "Túlio",
+            "atomicmass": "168.934",
+            "ec": "[Xe] 4f<sup>13</sup> 6s<sup>2</sup>",
+            "position": "6,15"
+        },
+        {
+            "atomicnumber": 70,
+            "symbol": "Yb",
+            "name": "Itérbio",
+            "atomicmass": "173.04",
+            "ec": "[Xe] 4f<sup>14</sup> 6s<sup>2</sup>",
+            "position": "6,16"
+        },
+        {
+            "atomicnumber": 71,
+            "symbol": "Lu",
+            "name": "Lutécio",
+            "atomicmass": "174.967",
+            "ec": "[Xe] 4f<sup>14</sup> 5d¹ 6s<sup>2</sup>",
+            "position": "6,17"
+        },
+        {
+            "atomicnumber": 72,
+            "symbol": "Hf",
+            "name": "Háfnio",
+            "atomicmass": "178.49",
+            "ec": "[Xe] 4f<sup>14</sup> 5d² 6s<sup>2</sup>",
+            "position": "6,18"
+        },
+        {
+            "atomicnumber": 73,
+            "symbol": "Ta",
+            "name": "Tântalo",
+            "atomicmass": "180.948",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>3</sup> 6s<sup>2</sup>",
+            "position": "6,19"
+        },
+        {
+            "atomicnumber": 74,
+            "symbol": "W",
+            "name": "Tungstênio",
+            "atomicmass": "183.84",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>4</sup> 6s<sup>2</sup>",
+            "position": "6,20"
+        },
+        {
+            "atomicnumber": 75,
+            "symbol": "Re",
+            "name": "Rênio",
+            "atomicmass": "186.207",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>5</sup> 6s<sup>2</sup>",
+            "position": "6,21"
+        },
+        {
+            "atomicnumber": 76,
+            "symbol": "Os",
+            "name": "Ósmio",
+            "atomicmass": "190.23",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>6</sup> 6s<sup>2</sup>",
+            "position": "6,22"
+        },
+        {
+            "atomicnumber": 77,
+            "symbol": "Ir",
+            "name": "Irídio",
+            "atomicmass": "192.217",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>7</sup> 6s<sup>2</sup>",
+            "position": "6,23"
+        },
+        {
+            "atomicnumber": 78,
+            "symbol": "Pt",
+            "name": "Platina",
+            "atomicmass": "195.084",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>8</sup> 6s<sup>2</sup>",
+            "position": "6,24"
+        },
+        {
+            "atomicnumber": 79,
+            "symbol": "Au",
+            "name": "Ouro",
+            "atomicmass": "196.967",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>9</sup> 6s<sup>1</sup>",
+            "position": "6,25"
+        },
+        {
+            "atomicnumber": 80,
+            "symbol": "Hg",
+            "name": "Mercúrio",
+            "atomicmass": "200.59",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
+            "position": "6,26"
+        },
+        {
+            "atomicnumber": 81,
+            "symbol": "Tl",
+            "name": "Tálio",
+            "atomicmass": "204.383",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p¹",
+            "position": "6,27"
+        },
+        {
+            "atomicnumber": 82,
+            "symbol": "Pb",
+            "name": "Chumbo",
+            "atomicmass": "207.2",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p²",
+            "position": "6,28"
+        },
+        {
+            "atomicnumber": 83,
+            "symbol": "Bi",
+            "name": "Bismuto",
+            "atomicmass": "208.98",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>3</sup>",
+            "position": "6,29"
+        },
+        {
+            "atomicnumber": 84,
+            "symbol": "Po",
+            "name": "Polônio",
+            "atomicmass": "[210]",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>4</sup>",
+            "position": "6,30"
+        },
+        {
+            "atomicnumber": 85,
+            "symbol": "At",
+            "name": "Ástato",
+            "atomicmass": "[210]",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>5</sup>",
+            "position": "6,31"
+        },
+        {
+            "atomicnumber": 86,
+            "symbol": "Rn",
+            "name": "Radônio",
+            "atomicmass": "[220]",
+            "ec": "[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup>",
+            "position": "6,32"
+        },
+        {
+            "atomicnumber": 87,
+            "symbol": "Fr",
+            "name": "Frâncio",
+            "atomicmass": "[223]",
+            "ec": "[Rn] 7s<sup>1</sup>",
+            "position": "7,1"
+        },
+        {
+            "atomicnumber": 88,
+            "symbol": "Ra",
+            "name": "Rádio",
+            "atomicmass": "[226]",
+            "ec": "[Rn] 7s<sup>2</sup>",
+            "position": "7,2"
+        },
+        {
+            "atomicnumber": 89,
+            "symbol": "Ac",
+            "name": "Actínio",
+            "atomicmass": "[227]",
+            "ec": "[Rn] 5f¹ 7s<sup>2</sup>",
+            "position": "7,3"
+        },
+        {
+            "atomicnumber": 90,
+            "symbol": "Th",
+            "name": "Tório",
+            "atomicmass": "232.03806",
+            "ec": "[Rn] 5f² 7s<sup>2</sup>",
+            "position": "7,4"
+        },
+        {
+            "atomicnumber": 91,
+            "symbol": "Pa",
+            "name": "Protactínio",
+            "atomicmass": "231.03588",
+            "ec": "[Rn] 5f<sup>3</sup> 7s<sup>2</sup>",
+            "position": "7,5"
+        },
+        {
+            "atomicnumber": 92,
+            "symbol": "U",
+            "name": "Urânio",
+            "atomicmass": "238.02891",
+            "ec": "[Rn] 5f<sup>4</sup> 7s<sup>2</sup>",
+            "position": "7,6"
+        },
+        {
+            "atomicnumber": 93,
+            "symbol": "Np",
+            "name": "Netúnio",
+            "atomicmass": "[237]",
+            "ec": "[Rn] 5f<sup>5</sup> 7s<sup>2</sup>",
+            "position": "7,7"
+        },
+        {
+            "atomicnumber": 94,
+            "symbol": "Pu",
+            "name": "Plutônio",
+            "atomicmass": "[244]",
+            "ec": "[Rn] 5f<sup>6</sup> 7s<sup>2</sup>",
+            "position": "7,8"
+        },
+        {
+            "atomicnumber": 95,
+            "symbol": "Am",
+            "name": "Amerício",
+            "atomicmass": "[243]",
+            "ec": "[Rn] 5f<sup>7</sup> 7s<sup>2</sup>",
+            "position": "7,9"
+        },
+        {
+            "atomicnumber": 96,
+            "symbol": "Cm",
+            "name": "Cúrio",
+            "atomicmass": "[247]",
+            "ec": "[Rn] 5f<sup>8</sup> 7s<sup>2</sup>",
+            "position": "7,10"
+        },
+        {
+            "atomicnumber": 97,
+            "symbol": "Bk",
+            "name": "Berquélio",
+            "atomicmass": "[247]",
+            "ec": "[Rn] 5f<sup>9</sup> 7s<sup>2</sup>",
+            "position": "7,11"
+        },
+        {
+            "atomicnumber": 98,
+            "symbol": "Cf",
+            "name": "Califórnio",
+            "atomicmass": "[251]",
+            "ec": "[Rn] 5f<sup>10</sup> 7s<sup>2</sup>",
+            "position": "7,12"
+        },
+        {
+            "atomicnumber": 99,
+            "symbol": "Es",
+            "name": "Einsténio",
+            "atomicmass": "[252]",
+            "ec": "[Rn] 5f<sup>11</sup> 7s<sup>2</sup>",
+            "position": "7,13"
+        },
+        {
+            "atomicnumber": 100,
+            "symbol": "Fm",
+            "name": "Férmio",
+            "atomicmass": "[257]",
+            "ec": "[Rn] 5f<sup>12</sup> 7s<sup>2</sup>",
+            "position": "7,14"
+        },
+        {
+            "atomicnumber": 101,
+            "symbol": "Md",
+            "name": "Mendelévio",
+            "atomicmass": "[258]",
+            "ec": "[Rn] 5f<sup>13</sup> 7s<sup>2</sup>",
+            "position": "7,15"
+        },
+        {
+            "atomicnumber": 102,
+            "symbol": "No",
+            "name": "Nobélio",
+            "atomicmass": "[259]",
+            "ec": "[Rn] 5f<sup>14</sup> 7s<sup>2</sup>",
+            "position": "7,16"
+        },
+        {
+            "atomicnumber": 103,
+            "symbol": "Lr",
+            "name": "Laurêncio",
+            "atomicmass": "[262]",
+            "ec": "",
+            "position": "7,17"
+        },
+        {
+            "atomicnumber": 104,
+            "symbol": "Rf",
+            "name": "Rutherfórdio",
+            "atomicmass": "261",
+            "ec": "",
+            "position": "7,18"
+        },
+        {
+            "atomicnumber": 105,
+            "symbol": "Db",
+            "name": "Dúbnio",
+            "atomicmass": "[262]",
+            "ec": "",
+            "position": "7,19"
+        },
+        {
+            "atomicnumber": 106,
+            "symbol": "Sg",
+            "name": "Seabórgio",
+            "atomicmass": "[266]",
+            "ec": "",
+            "position": "7,20"
+        },
+        {
+            "atomicnumber": 107,
+            "symbol": "Bh",
+            "name": "Bóhrio",
+            "atomicmass": "[264]",
+            "ec": "",
+            "position": "7,21"
+        },
+        {
+            "atomicnumber": 108,
+            "symbol": "Hs",
+            "name": "Hássio",
+            "atomicmass": "[277]",
+            "ec": "",
+            "position": "7,22"
+        },
+        {
+            "atomicnumber": 109,
+            "symbol": "Mt",
+            "name": "Meitnério",
+            "atomicmass": "[268]",
+            "ec": "",
+            "position": "7,23"
+        },
+        {
+            "atomicnumber": 110,
+            "symbol": "Ds",
+            "name": "Darmstádio",
+            "atomicmass": "[271]",
+            "ec": "",
+            "position": "7,24"
+        },
+        {
+            "atomicnumber": 111,
+            "symbol": "Rg",
+            "name": "Roentgênio",
+            "atomicmass": "[272]",
+            "ec": "",
+            "position": "7,25"
+        },
+        {
+            "atomicnumber": 112,
+            "symbol": "Cn",
+            "name": "Copernício",
+            "atomicmass": "[277]",
+            "ec": "",
+            "position": "7,26"
+        },
+        {
+            "atomicnumber": 113,
+            "symbol": "Nh",
+            "name": "Nihônio",
+            "atomicmass": "[286]",
+            "ec": "",
+            "position": "7,27"
+        },
+        {
+            "atomicnumber": 114,
+            "symbol": "Fl",
+            "name": "Fleróvio",
+            "atomicmass": "[289]",
+            "ec": "",
+            "position": "7,28"
+        },
+        {
+            "atomicnumber": 115,
+            "symbol": "Mc",
+            "name": "Moscóvio",
+            "atomicmass": "[288]",
+            "ec": "",
+            "position": "7,29"
+        },
+        {
+            "atomicnumber": 116,
+            "symbol": "Lv",
+            "name": "Livermório",
+            "atomicmass": "[293]",
+            "ec": "",
+            "position": "7,30"
+        },
+        {
+            "atomicnumber": 117,
+            "symbol": "Ts",
+            "name": "Tenessino",
+            "atomicmass": "[294]",
+            "ec": "",
+            "position": "7,31"
+        },
+        {
+            "atomicnumber": 118,
+            "symbol": "Og",
+            "name": "Oganessônio",
+            "atomicmass": "[294]",
+            "ec": "",
+            "position": "7,32"
         }
     ]
 }
