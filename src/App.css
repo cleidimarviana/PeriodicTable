@@ -26,6 +26,10 @@
    background: transparent;
 }
 
+.col2:hover {
+   border: none;
+}
+
 .content{
    margin-top: 16px;
 }
